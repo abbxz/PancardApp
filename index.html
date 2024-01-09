@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pancard App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h2 class="bar"><i class="fa-solid fa-bars"></i></h2>
+            <img src="https://www.pancardapp.com/assets/img/logo.png?v=20190406" alt="" width="180" style="margin-top: 5px;" class="mlogo">
+            <p><a href="#">Home  &nbsp; &nbsp; &nbsp; &nbsp;Track Pancard &nbsp; &nbsp; &nbsp; &nbsp; ContactUs</a></p>
+        </div> 
+        <br>
+    </header>
+    <main>
+        <h2 style="text-align: center;">New PAN Card Application Form</h2> <br>
+    </main>
+    <section class="sec1">
+      <h4>APPLICANT NAME DETAIL</h4>
+      <h5>Name as given in Aadhaar Card</h5>
+      <input type="text" placeholder="Enter your   Full Name here" class="t1"> <br> <br>
+      <!-- 3 row table -->
+      <table>
+      <tr>
+        <td> <h5>Surname / Last Name</h5></td>
+        <td><h5>First Name</h5></td>
+        <td><h5>Middle Name <span>[Father or Husband name]</span></h5></td> </tr>
+        <tr>
+            <td><input type="text" placeholder="Enter your Surname here" class="t2" style="width: 285px; margin-right: 35px;"></td>
+            <td><input type="text" placeholder="Enter your First Name here" class="t2" style="width: 285px; margin-right: 35px;"></td>
+            <td><input type="text" placeholder="Enter your Middle Name here" class="t2" style="width: 285px; margin-right: 35px;"></td>
+        </tr>
+      </table>
+      <br>
+      <!-- select proof -->
+        <h5>Name Identity Proof</h5>
+        <select class="t3">
+            <option value="">Select Name identity proof</option>
+            <option value="">Aadhar Card</option>
+        </select>
+    </section> <br>
+
+    <!-- section 2 -->
+    <section class="sec2">
+        <h4>FATHER'S NAME DETAIL</h4>
+        <table>
+            <tr>
+                <td><h5>Surname / Last Name</h5></td>
+                <td><h5>First Name</h5></td>
+                <td><h5>Middle Name</h5></td>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="Enter your Name here" class="t2" style="width: 285px; margin-right: 35px;"></td>
+                <td><input type="text" placeholder="Enter your First Name here" class="t2" style="width: 285px; margin-right: 35px;"></td>
+                <td><input type="text" placeholder="Enter your Name here" class="t2" style="width: 285px; margin-right: 35px;"></td>
+            </tr>
+        </table>
+    </section> <br>
+
+    <!-- section 3 -->
+    <section class="sec3">
+        <h5>Applicant's Date Of Birth</h5>
+    <table>
+        <tr>
+            <td>
+                <select name="Day" id="" class="t31">
+                    <option value="Day">Day</option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                    <option value="">5</option>
+                    <option value="">6</option>
+                    <option value="">7</option>
+                    <option value="">8</option>
+                    <option value="">9</option>
+                    <option value="">10</option>
+                    <option value="">11</option>
+                    <option value="">12</option>
+                    <option value="">13</option>
+                    <option value="">14</option>
+                    <option value="">15</option>
+                    <option value="">16</option>
+                    <option value="">17</option>
+                    <option value="">18</option>
+                    <option value="">19</option>
+                    <option value="">20</option>
+                    <option value="">21</option>
+                    <option value="">22</option>
+                    <option value="">23</option>
+                    <option value="">24</option>
+                    <option value="">25</option>
+                    <option value="">26</option>
+                    <option value="">27</option>
+                    <option value="">28</option>
+                    <option value="">29</option>
+                    <option value="">30</option>
+                    <option value="">31</option>
+                </select>
+            </td>
+            <td>
+                <select name="Month" id="" class="t32">
+                    <option value="">Month</option>
+                    <option value="">January</option>
+                    <option value="">February</option>
+                    <option value="">March</option>
+                    <option value="">April</option>
+                    <option value="">May</option>
+                    <option value="">June</option>
+                    <option value="">July</option>
+                    <option value="">August</option>
+                    <option value="">September</option>
+                    <option value="">October</option>
+                    <option value="">November</option>
+                    <option value="">December</option>
+                </select>
+            </td>
+            <td>
+                <select name="Year" id="" class="t33">
+                    <option value="">Year</option>
+                    <option value="">2015</option>
+                    <option value="">2016</option>
+                    <option value="">2017</option>
+                    <option value="">2018</option>
+                    <option value="">2019</option>
+                    <option value="">2020</option>
+                    <option value="">2021</option>
+                    <option value="">2022</option>
+                    <option value="">2023</option>
+                    <option value="">2024</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><p style="text-align: center; color: rgb(188, 195, 206);">Day</p></td>
+            <td><p style="text-align: center; color: rgb(188, 195, 206);">Month</p></td>
+            <td><p style="text-align: center; color: rgb(188, 195, 206);">Year</p></td>
+        </tr>
+    </table> <br><br>
+    <!-- DOB proof -->
+    <h5>Date Of Birth Proof</h5>
+    <select name="DOB proof" id="" class="t34">
+        <option value="">Select Date of Birth Proof</option>
+        <option value="">Aadhar card</option>
+        <option value="">voter id</option>
+        <option value="">driving Lisence</option>
+        <option value="">Passport</option>
+    </select>
+    </section> <br>
+
+    <!-- section 4 -->
+    <section class="sec4">
+        <h5>Address Proof *</h5>
+        <select name="Address proof" id="" class="t41">
+            <option value="">Select Address Proof</option>
+            <option value="">Aadhar card</option>
+            <option value="">voter id</option>
+            <option value="">driving Lisence</option>
+            <option value="">Passport</option>
+        </select>
+        <p class="p4">* PAN Card will be sent in courier as per Address Proof.</p> <br>
+        <h5 style="margin-top: 10px;">Mobile Number</h5> 
+        <label class="p91">+91</label>
+        <input type="text" class="t42">
+        <h5 style="margin-top: 25px;">Email id</h5>
+        <input type="email" class="t43">
+    </section> <br><br>
+
+    <!-- Button -->
+    <h2><input class="btn" type="button" value="SUBMIT"></h2>
+    <footer class="">
+        <table>
+        <tr>
+            <td>
+                <ul>
+                    <li>How to Apply for</li>
+                    <li><a href="#">New individual pan card</a></li>
+                    <li><a href="#">New minor pan card</a></li>
+                    <li><a href="#">New pan without aadhat otp</a></li>
+                    <li><a href="#">New pan for students</a></li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>Reprint / Reissue PAN Card</li>
+                    <li><a href="#">Duplicate pan card</a></li>
+                    <li><a href="#">Reprint pan card</a></li>
+                    <li><a href="#">Reprint lost pan card</a></li>
+                    <li><a href="#">Reprint damaged pan card</a></li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>Physical PAN Card</li>
+                    <li><a href="#">epan to physical pan</a></li>
+                    <li><a href="#">instant pan to physical pan</a></li>
+                    <li><a href="#">get physical pan card</a></li>
+                    <li><a href="#">epan to normal pan </a></li>
+                    <li><a href="#">get PVC pan </a></li>
+                    <li><a href="#">get plastic pan </a></li>
+                </ul>
+            </td>
+            <td>
+                <ul>
+                    <li>Trust</li>
+                    <li><a href="#">New trust pancard</a></li>
+                    <li><a href="#">Trust pancard correction form</a></li>
+                    <li><a href="#">Duplicate Trust Pancard</a></li>
+                    <li><a href="#">Reprint Trust Pancard</a></li>
+                    <li><a href="#">Reprint lost Trust Pancard</a></li>
+                    <li><a href="#">Reprint damaged Trust Pancard </a></li>
+                </ul>
+            </td>
+        </tr>
+        </table> <br> <br>
+        <p style="text-align: center;">Contact Us . About Us . Terms & Conditions . Refund Policy . Shipping Policy . Disclaimer Policy . Privacy Policy
+           <br> © PANCardApp.com 2024. All Rights reserved.</p>
+           <br><br> <br>
+        <p style="text-align: center; margin-bottom: 60px;">
+            This disclaimer is applicable to this website. By using or accessing this website you agree with the terms and conditions in this disclaimer. This is just a <br>website that assists Indians / NRIs / PIOs / OCIs /Foreigners / Companies to get PAN Card Assistance. This is not a Government Website. We are private <br> consultants managing this website and providing PAN Card assistance for business benefits. Although the greatest possible care has been exercised to <br>ensure the correctness and completeness of the information provided on this website, we do not accept any liability for it. Use of this website <br>constitutes your acceptance to agreeing to all our terms & conditions, and that you have gone through the disclaimer mentioned in it.
+        </p>
+    </footer>
+
+</body>
+</html>
